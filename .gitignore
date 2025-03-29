@@ -1,0 +1,6 @@
+# Cartelle da ignorare
+.idea/
+*.iml
+out/
+target/
+input/
