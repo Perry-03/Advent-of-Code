@@ -5,3 +5,10 @@ out/
 target/
 input/
 src/test/
+# Gradle
+.gradle/
+gradle/wrapper/
+build.gradle
+gradlew
+gradle.bat
+build/
