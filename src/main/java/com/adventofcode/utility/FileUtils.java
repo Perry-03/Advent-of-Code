@@ -26,4 +26,8 @@ public class FileUtils {
                 .mapToInt(Integer :: parseInt)
                 .toArray();
     }
+
+    public static String readInputAsString(String filePath) throws IOException {
+        return Files.readString(Paths.get(filePath));
+    }
 }
