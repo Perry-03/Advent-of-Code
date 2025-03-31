@@ -57,7 +57,6 @@ public class Solution {
 
     private void moveAndAddPosition(StringBuilder path, Set<String> houses) {
         int x = 0, y = 0;
-        houses.add(x + "," + y);
 
         for (int i = 0; i < path.length(); i++) {
             switch (path.charAt(i)) {
