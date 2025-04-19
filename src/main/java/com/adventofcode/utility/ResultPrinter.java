@@ -5,7 +5,15 @@ public class ResultPrinter {
         System.out.println("Il risultato della prima parte è:" + result);
     }
 
+    public static void part1Formatter(String result) {
+        System.out.println("Il risultato della prima parte è:" + result);
+    }
+
     public static void part2Formatter(int result) {
+        System.out.println("Il risultato della seconda parte è:" + result);
+    }
+
+    public static void part2Formatter(String result) {
         System.out.println("Il risultato della seconda parte è:" + result);
     }
 }
